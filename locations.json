@@ -1,0 +1,287 @@
+[
+  {
+    "id": 1,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 71.100,
+    "lng": -143.520,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/GhffSXK.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 69.346,
+    "lng": -139.664,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/1saG3uw.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 72.348,
+    "lng": -139.362,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/RwxOTTh.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 75.565,
+    "lng": -142.904,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/TYiCDXA.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 75.867,
+    "lng": -116.925,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/Mjn7Do7.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 75.976,
+    "lng": -109.666,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/22yFsjC.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 77.432,
+    "lng": -116.181,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/NiwlS4s.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 81.466,
+    "lng": -92.482,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/lS8bkx7.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 82.073,
+    "lng": -102.954,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/0fpUWQg.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 72.348,
+    "lng": -139.362,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/iup58uO.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 73.201,
+    "lng": -111.063,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/WBgwe9x.jpg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 69.247,
+    "lng": -115.132,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/QsaRzFk.jpg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 63.886,
+    "lng": -126.782,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/RIJ7JjA.jpg"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "type": "Gangs",
+    "title": "GANG_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 70.083,
+    "lng": -139.584,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://i.imgur.com/D7C8pok.png"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "type": "Fraktionen",
+    "title": "Los Santos Police Department",
+    "notes": "",
+    "order": 1,
+    "lat": 69.185,
+    "lng": -130.026,
+    "images": [
+      {
+        "id": "1",
+        "url": "http://i.imgur.com/zPwyyNm.jpg"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "type": "Fraktionen",
+    "title": "Los Santos County Sheriff's Department",
+    "notes": "",
+    "order": 1,
+    "lat": 82.596,
+    "lng": -128.862,
+    "images": [
+      {
+        "id": "1",
+        "url": "http://i.imgur.com/zPwyyNm.jpg"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "type": "Fraktionen",
+    "title": "Los Santos Fire Department",
+    "notes": "",
+    "order": 1,
+    "lat": 67.608,
+    "lng": -121.820,
+    "images": [
+      {
+        "id": "1",
+        "url": "http://i.imgur.com/zPwyyNm.jpg"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "type": "Squads",
+    "title": "Squad_NAME",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 67.482,
+    "lng": -114.021,
+    "images": [
+      {
+        "id": "1",
+        "url": "http://i.imgur.com/zPwyyNm.jpg"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "type": "A. Helikopter",
+    "title": "Abgestürzter Helikopter: San-Chianski-Bergkette (Unten)",
+    "notes": "Farbe: ",
+    "order": 1,
+    "lat": 78.938,
+    "lng": -87.157,
+    "images": [
+      {
+        "id": "1",
+        "url": "http://i.imgur.com/zPwyyNm.jpg"
+      }
+    ]
+  }
+]
