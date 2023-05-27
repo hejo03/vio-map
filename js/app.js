@@ -365,8 +365,7 @@ $(function () {
 					position: e.latLng,
 				});
 				window.locs.push(marker);
-				navigator.clipboard.writeText(`"lat": ${e.latLng.lat().toFixed(3)},
-    "lng": ${e.latLng.lng().toFixed(3)},`);
+				navigator.clipboard.writeText(`{"lat": "${e.latLng.lat().toFixed(3)}", "lng": "${e.latLng.lng().toFixed(3)}"}`);
 				// Check if coords mode is enabled
 				if (showCoordinations) {
 					// Update/create info window

@@ -18,7 +18,7 @@
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 	</head>
 
-	<body class="" style="background-color: #1862ad">
+	<body class="" style="background-color: #1862ad; user-select: none">
 		<header>
 			<p class="left"><a href="/">Vio-V Map by Joel</a></p>
 			<ul class="right">
@@ -32,7 +32,7 @@
 
 		<script type="x/template" id="categoriesTemplate">
 			{{#each categories}}
-			  <section class="type">
+			  <section class="type" style="user-select: auto">
 			    <h3>{{name}}</h3>
 			    <ul>
 			      {{#each types}}
@@ -46,7 +46,7 @@
 		</script>
 
 		<script type="x/template" id="categoryDetailsTemplate">
-			  <section class="type">
+			  <section class="type" style="user-select: auto">
 				<h3><a href="#" class="back details"><i class="icon-chevron-sign-left"></i></a> {{type.name}}</h3>
 				<ul>
 					{{#each locations}}
@@ -57,7 +57,7 @@
 		</script>
 
 		<script type="x/template" id="markerPopupTemplate2">
-			  <div id="info-window" style="max-width:420px;">
+			  <div id="info-window" style="max-width:420px; user-select: auto">
 				<div class="scrollable">
 					<span class="header">
 						<h3>{{#if (devMode true)}}{{id}} | {{/if}}{{title}}</h3>
@@ -89,7 +89,7 @@
 						{{/if}}
 						{{#each images}}
 							<div class="image-{{id}}">
-						     	<img src="{{url}}" >
+						     	<img src="{{url}}" style="user-select: none" >
 						    </div>
 						    <br>
 				     	{{/each}}
