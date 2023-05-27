@@ -8,6 +8,15 @@
 	display: none;
 }
 
+/* Map error popup */
+div[style*='font-weight: 500;'] {
+	display: none;
+}
+
+div[style*='z-index: 1000000;'] {
+	display: none;
+}
+
 body {
 	font-family: Roboto, sans-serif;
 	color: #333;
@@ -273,7 +282,7 @@ body {
  */
 
 .scrollable {
-	height: 400px;
+	height: 200px;
 }
 
 @media only screen and (max-device-width: 568px) {

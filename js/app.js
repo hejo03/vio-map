@@ -1,9 +1,17 @@
+/*
+http://localhost:5500/?dev=true
+
+*/
+
 $(function () {
 	var showCoordinations = true;
+	const urlParams = new URLSearchParams(window.location.search);
 
-	if (window.location.protocol != 'http:') {
-		window.location.href = 'http:' + window.location.href.substring(window.location.protocol.length);
-	}
+	const devMode = urlParams.get('dev');
+	console.log(devMode);
+	// if (window.location.protocol != 'http:') {
+	// 	window.location.href = 'http:' + window.location.href.substring(window.location.protocol.length);
+	// }
 
 	var $types = $('.types');
 
@@ -50,7 +58,13 @@ $(function () {
 		return window.location.hostname == 'localhost' ? '' : 'https://map.lspd-viov.lol/';
 	};
 
+	var isdevMode = function () {
+		console.log(devMode == 'true' ? true : false);
+		return devMode == 'true' ? true : false;
+	};
+
 	Handlebars.registerHelper('assetsUrl', assetsUrl);
+	Handlebars.registerHelper('devMode', isdevMode);
 
 	var timestampToSeconds = function (stamp) {
 		stamp = stamp.split(':');
@@ -67,7 +81,7 @@ $(function () {
 				position: new google.maps.LatLng(this.get('lat'), this.get('lng')),
 				icon: {
 					url: assetsUrl() + 'icons/' + categories.getIcon(this.get('type')),
-					scaledSize: new google.maps.Size(32, 37),
+					scaledSize: new google.maps.Size(32, 32),
 				},
 			});
 
@@ -108,7 +122,7 @@ $(function () {
 	});
 
 	var locations = (window.locations = new LocationsCollection());
-	console.log(locations);
+
 	var CategoryModel = Backbone.Model.extend({});
 	var CategoriesCollection = Backbone.Collection.extend({
 		model: CategoryModel,
@@ -134,7 +148,7 @@ $(function () {
 			});
 		},
 	});
-
+	var ignoredTitles = ['GANG_NAME', 'SQUAD_NAME'];
 	var categories = (window.cats = new CategoriesCollection([
 		{
 			name: 'Gangs',
@@ -149,7 +163,7 @@ $(function () {
 			enabled: true,
 		},
 		{
-			name: 'Fraktionen',
+			name: 'Police',
 			icon: 'General/sfactions.png',
 			type: 'Fraktionen',
 			enabled: true,
@@ -263,12 +277,14 @@ $(function () {
 					type: this.options.type.toJSON(),
 					locations: _(locs).map(function (x) {
 						var d = x.toJSON();
-						if (name == 'Money') name = 'Hidden Package';
-						d.title = d.title.replace(name + ' ', '');
+						if (devMode != 'true' && ignoredTitles.includes(d.title)) return;
+						if (devMode == 'true') d.title = d.id + '| ' + d.title.replace(name + ' ', '');
+						else d.title = d.title.replace(name + ' ', '');
 						return d;
 					}),
 				})
 			);
+
 			$('#types').hide();
 			this.$el.show();
 			return this;
@@ -430,7 +446,9 @@ $(function () {
 					if (!marker.getMap()) {
 						marker.setMap(this.map);
 					}
-					marker.setVisible(true);
+
+					if (devMode != 'true' && ignoredTitles.includes(location.get('title'))) marker.setVisible(false);
+					else marker.setVisible(true);
 				},
 				this
 			);

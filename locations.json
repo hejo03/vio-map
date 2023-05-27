@@ -152,8 +152,8 @@
   {
     "id": 11,
     "type": "Gangs",
-    "title": "GANG_NAME",
-    "notes": "Farbe: ",
+    "title": "Kegelclub",
+    "notes": "Farbe: Weiß",
     "order": 1,
     "lat": 73.201,
     "lng": -111.063,
@@ -197,8 +197,8 @@
   {
     "id": 14,
     "type": "Gangs",
-    "title": "GANG_NAME",
-    "notes": "Farbe: ",
+    "title": "Sinaloa Kartell",
+    "notes": "Farbe: Schwarz",
     "order": 1,
     "lat": 70.083,
     "lng": -139.584,
@@ -211,7 +211,7 @@
   },
   {
     "id": 50,
-    "type": "Fraktionen",
+    "type": "Police",
     "title": "Los Santos Police Department",
     "notes": "",
     "order": 1,
@@ -226,7 +226,7 @@
   },
   {
     "id": 51,
-    "type": "Fraktionen",
+    "type": "Police",
     "title": "Los Santos County Sheriff's Department",
     "notes": "",
     "order": 1,
@@ -240,24 +240,9 @@
     ]
   },
   {
-    "id": 52,
-    "type": "Fraktionen",
-    "title": "Los Santos Fire Department",
-    "notes": "",
-    "order": 1,
-    "lat": 67.608,
-    "lng": -121.820,
-    "images": [
-      {
-        "id": "1",
-        "url": "http://i.imgur.com/zPwyyNm.jpg"
-      }
-    ]
-  },
-  {
     "id": 100,
     "type": "Squads",
-    "title": "Squad_NAME",
+    "title": "SQUAD_NAME",
     "notes": "Farbe: ",
     "order": 1,
     "lat": 67.482,
@@ -270,18 +255,165 @@
     ]
   },
   {
-    "id": 200,
+    "id": 201,
     "type": "A. Helikopter",
-    "title": "Abgestürzter Helikopter: San-Chianski-Bergkette (Unten)",
-    "notes": "Farbe: ",
+    "title": "(1) Banham-Canyon",
+    "notes": "",
+    "order": 1,
+    "lat": 72.868,
+    "lng": -151.198
+  },
+  {
+    "id": 202,
+    "type": "A. Helikopter",
+    "title": "(2) Lago-Zancodu",
+    "notes": "",
+    "order": 1,
+    "lat": 76.920,
+    "lng": -148.155
+  },
+  {
+    "id": 203,
+    "type": "A. Helikopter",
+    "title": "(3) Mount-Josiah",
+    "notes": "",
+    "order": 1,
+    "lat": 78.459,
+    "lng": -128.152
+  },
+  {
+    "id": 204,
+    "type": "A. Helikopter",
+    "title": "(4) Raton-Canyon",
+    "notes": "",
+    "order": 1,
+    "lat": 80.016,
+    "lng": -129.767
+  },
+  {
+    "id": 205,
+    "type": "A. Helikopter",
+    "title": "(5) Pazific-Ocean",
+    "notes": "",
+    "order": 1,
+    "lat": 80.958,
+    "lng": -143.669
+  },
+  {
+    "id": 206,
+    "type": "A. Helikopter",
+    "title": "(6) Mount-Chiliad",
+    "notes": "",
+    "order": 1,
+    "lat": 81.241,
+    "lng": -124.094
+  },
+  {
+    "id": 207,
+    "type": "A. Helikopter",
+    "title": "(7) Mount-Chiliad",
+    "notes": "",
+    "order": 1,
+    "lat": 82.623,
+    "lng": -121.360
+  },
+  {
+    "id": 208,
+    "type": "A. Helikopter",
+    "title": "(8) Mount-Chiliad",
+    "notes": "",
+    "order": 1,
+    "lat": 81.967,
+    "lng": -108.584
+  },
+  {
+    "id": 209,
+    "type": "A. Helikopter",
+    "title": "(9) Mount Gordo (Oben)",
+    "notes": "",
+    "order": 1,
+    "lat": 82.869,
+    "lng": -99.339
+  },
+  {
+    "id": 210,
+    "type": "A. Helikopter",
+    "title": "(10) Mount Gordo (Unten)",
+    "notes": "",
+    "order": 1,
+    "lat": 82.034,
+    "lng": -95.363
+  },
+  {
+    "id": 211,
+    "type": "A. Helikopter",
+    "title": "(11) Pacific Ocean",
+    "notes": "",
+    "order": 1,
+    "lat": 81.215,
+    "lng": -89.358
+  },
+  {
+    "id": 212,
+    "type": "A. Helikopter",
+    "title": "(12) San-Chianski-Bergkette (Oben)",
+    "notes": "",
+    "order": 1,
+    "lat": 80.422,
+    "lng": -92.702
+  },
+  {
+    "id": 213,
+    "type": "A. Helikopter",
+    "title": "(13) San-Chianski-Bergkette (Unten)",
+    "notes": "",
     "order": 1,
     "lat": 78.938,
-    "lng": -87.157,
-    "images": [
-      {
-        "id": "1",
-        "url": "http://i.imgur.com/zPwyyNm.jpg"
-      }
-    ]
+    "lng": -87.157
+  },
+  {
+    "id": 214,
+    "type": "A. Helikopter",
+    "title": "(14) Davis-Quartz",
+    "notes": "",
+    "order": 1,
+    "lat": 76.671,
+    "lng": -96.208
+  },
+  {
+    "id": 215,
+    "type": "A. Helikopter",
+    "title": "(15) Pazific-Ocean",
+    "notes": "",
+    "order": 1,
+    "lat": 70.260,
+    "lng": -93.232
+  },
+  {
+    "id": 216,
+    "type": "A. Helikopter",
+    "title": "(16) Palomino-Hochland (oben)",
+    "notes": "",
+    "order": 1,
+    "lat": 65.732,
+    "lng": -102.228
+  },
+  {
+    "id": 217,
+    "type": "A. Helikopter",
+    "title": "(17) Palomino-Hochland (mitte)",
+    "notes": "",
+    "order": 1,
+    "lat": 63.221,
+    "lng": -101.786
+  },
+  {
+    "id": 218,
+    "type": "A. Helikopter",
+    "title": "(18) Palomino-Hochland (unten)",
+    "notes": "",
+    "order": 1,
+    "lat": 61.422,
+    "lng": -104.555
   }
 ]
