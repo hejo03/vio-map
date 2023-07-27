@@ -179,8 +179,13 @@ header a.active {
 	cursor: pointer;
 }
 
-.types .type input {
+.types .type .input-type {
 	display: none;
+}
+
+.input-search {
+	border: 2px solid black;
+	border-radius: 6px;
 }
 
 .types .type img {

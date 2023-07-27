@@ -1,6 +1,6 @@
 import locations from '../locations.json' assert {type: 'json'};
 
-window.onload = init();
+// window.onload = init();
 function init() {
 	var tableData = '';
 	locations.forEach((loc) => {
@@ -36,6 +36,7 @@ function init() {
 		            							<option ${loc.type == 'DT Abgaben' ? 'selected' : ''}>DT Abgaben</option>
 		            							<option ${loc.type == 'A. Helikopter' ? 'selected' : ''}>A. Helikopter</option>
 		            							<option ${loc.type == 'Händler' ? 'selected' : ''}>Händler</option>
+													<option ${loc.type == 'Gang Dealer' ? 'selected' : ''}>Gang Dealer</option>
 		            							>
 		            						</select>
 		            					</div>

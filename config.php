@@ -70,6 +70,7 @@
 									<option>WT Spots</option>
 									<option>DT Abgaben</option>
 									<option>A. Helikopter</option>
+									<option>Gang Dealer</option>
 									<option>Händler</option>
 									>
 								</select>
@@ -101,7 +102,7 @@
 						<h1 class="modal-title fs-5" id="exampleModalLabel">Info</h1>
 						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
-					<div class="modal-body">Gangs: 1-50<br />Police: 51-60<br />Squads:100-200<br />A. Heli 200-250</div>
+					<div class="modal-body">Gangs: 1-50<br />Police: 51-60<br>DT:61-65<br />Squads:100-200<br />A. Heli 200-250<br>WT 300-350<br>Gang Dealer 251-299</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 						<button type="button" class="btn btn-primary">Save changes</button>
@@ -121,7 +122,61 @@
 					<th scope="col"></th>
 				</tr>
 			</thead>
-			<tbody id="data"></tbody>
+			<tbody id="data">
+				<?php
+				foreach ($data as $key) {
+				?>
+					<tr>
+						<th><?php echo $key['id']; ?></th>
+						<td><?php echo $key['type']; ?></td>
+						<td><?php echo $key['title']; ?></td>
+						<td><?php echo $key['notes']; ?></td>
+						<td><?php echo $key['lat']; ?> | lng: <?php echo $key['lng']; ?></td>
+						<td> <a class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#edit<?php echo $key['id']; ?>"><i class="fa fa-edit"></i></a>
+							<div class="modal fade" id="edit<?php echo $key['id']; ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h1 class="modal-title fs-5" id="exampleModalLabel">Create Marker</h1> <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body">
+											<form action="./edit.php" method="post"> <input type="hidden" name="oldId" value="<?php echo $key['id']; ?>" />
+												<div class="mb-3"> <label for="id" class="form-label">ID</label> <input type="number" min="1" class="form-control" value="<?php echo $key['id']; ?>" id="id" name="id" required /> </div>
+												<div class="mb-3"> <label for="id" class="form-label">Category</label> <select class="form-select" name="category" required>
+														<option <?php if ($key['type'] == 'Gangs') echo 'selected'; ?>>Gangs</option>
+														<option <?php if ($key['type'] == 'Squads') echo 'selected'; ?>>Squads</option>
+														<option <?php if ($key['type'] == 'Police') echo 'selected'; ?>>Police</option>
+														<option <?php if ($key['type'] == 'WT Spots') echo 'selected'; ?>>WT Spots</option>
+														<option <?php if ($key['type'] == 'DT Abgaben') echo 'selected;' ?>>DT Abgaben</option>
+														<option <?php if ($key['type'] == 'A. Helikopter') echo 'selected'; ?>>A. Helikopter</option>
+														<option <?php if ($key['type'] == 'Gang Dealer') echo 'selected'; ?>>Gang Dealer</option> >
+														<option <?php if ($key['type'] == 'Händler') echo 'selected'; ?>>Händler</option> >
+													</select> </div>
+												<div class="mb-3"> <label for="id" class="form-label">Title</label> <input type="text" class="form-control" id="id" name="title" value="<?php echo $key['title']; ?>" placeholder="" required /> </div>
+												<div class="mb-3"> <label for="id" class="form-label">Notes:</label> <input type="tex" class="form-control" id="id" name="notes" value="<?php echo $key['notes']; ?>" placeholder="Farbe: .." /> </div>
+												<div class="mb-3"> <label for="id" class="form-label">Position</label> <input type="text" class="form-control" id="id" name="position" value='{"lat": "<?php echo $key['lat']; ?>", "lng": "<?php echo $key['lng']; ?>"}' placeholder='{"lat": "73.746", "lng": "-121.157"}' required /> </div> <button type="submit" class="btn btn-primary">Update</button>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div> <a class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#delete<?php echo $key['id']; ?>"><i class="fa fa-times"></i></a> <!-- Modal -->
+							<div class="modal fade" id="delete<?php echo $key['id']; ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLabel">Marker Löschen??</h5> <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body">Willst du den Marker <b><?php echo $key['title']; ?></b> wirklich löschen?</div>
+										<div class="modal-footer"> <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Abbrechen</button> <button type="button" onclick="window.location.href='./remove.php?id=<?php echo $key['id']; ?>'" class="btn btn-danger">Löschen</button> </div>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				<?php
+				}
+				?>
+			</tbody>
 		</table>
 	</div>
 	<script>

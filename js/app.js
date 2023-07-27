@@ -2,13 +2,37 @@
 http://localhost:5500/?dev=true
 
 */
+var ignoredTitles = ['GANG_NAME', 'SQUAD_NAME'];
+function search(text) {
+	if (text == '') {
+		$('#realTypes').show();
+		$('#searchResults').html(``);
+		return;
+	}
+	$('#realTypes').hide();
+	var html = '';
+	fetch('locations.json')
+		.then((response) => response.json())
+		.then((json) => {
+			function filterItems(needle, heystack) {
+				var query = needle.toLowerCase();
+				return heystack.filter(function (item) {
+					return item.title.toLowerCase().indexOf(query) >= 0 && !ignoredTitles.includes(item.title);
+				});
+			}
+			filterItems(text, json).forEach((loc) => {
+				html += `<li data-id="${loc.id}"><label>${loc.title}</label></li>`;
+			});
+			$('#searchResults').html(`<ul>${html}</ul>`);
+		});
+}
 
 $(function () {
 	var showCoordinations = true;
 	const urlParams = new URLSearchParams(window.location.search);
 
 	const devMode = urlParams.get('dev');
-	console.log(devMode);
+	const mapType = urlParams.get('mapType');
 	// if (window.location.protocol != 'http:') {
 	// 	window.location.href = 'http:' + window.location.href.substring(window.location.protocol.length);
 	// }
@@ -55,11 +79,10 @@ $(function () {
 	var currentMarker;
 
 	var assetsUrl = function () {
-		return window.location.hostname == 'localhost' ? '' : 'https://map.lspd-viov.lol/';
+		return window.location.hostname == 'localhost' ? '' : 'https://map.hejo03.de/';
 	};
 
 	var isdevMode = function () {
-		console.log(devMode == 'true' ? true : false);
 		return devMode == 'true' ? true : false;
 	};
 
@@ -148,7 +171,7 @@ $(function () {
 			});
 		},
 	});
-	var ignoredTitles = ['GANG_NAME', 'SQUAD_NAME'];
+
 	var categories = (window.cats = new CategoriesCollection([
 		{
 			name: 'Gangs',
@@ -158,7 +181,7 @@ $(function () {
 		},
 		{
 			name: 'Squads',
-			icon: 'General/house.png',
+			icon: 'General/house.webp',
 			type: 'Fraktionen',
 			enabled: true,
 		},
@@ -170,13 +193,13 @@ $(function () {
 		},
 		{
 			name: 'WT Spots',
-			icon: 'General/cars.png',
+			icon: 'General/Packet.webp',
 			type: 'Blips',
 			enabled: true,
 		},
 		{
 			name: 'DT Abgaben',
-			icon: 'General/cars.png',
+			icon: 'General/Weed.webp',
 			type: 'Blips',
 			enabled: true,
 		},
@@ -187,10 +210,16 @@ $(function () {
 			enabled: true,
 		},
 		{
+			name: 'Gang Dealer',
+			icon: 'General/drug.webp',
+			type: 'Blips',
+			enabled: true,
+		},
+		{
 			name: 'Händler',
 			icon: 'General/cars.png',
 			type: 'Farm',
-			enabled: true,
+			enabled: false,
 		},
 	]));
 
@@ -293,7 +322,7 @@ $(function () {
 
 	var MapView = Backbone.View.extend({
 		initialize: function () {
-			this.mapType = 'Road';
+			this.mapType = 'Satellite';
 			this.mapDetails = {Atlas: '#0fa8d2', Satellite: '#143d6b', Road: '#1862ad'};
 			this.mapOptions = {
 				center: new google.maps.LatLng(66, -125),
@@ -409,8 +438,8 @@ $(function () {
 			if (!coord) {
 				return null;
 			}
-
-			return assetsUrl() + 'tiles/satellite/' + zoomLevel + '-' + coord.x + '_' + coord.y + '.png';
+			console.log('tiles/' + (mapType ? mapType : 'satellite') + '/');
+			return assetsUrl() + 'tiles/' + (mapType ? mapType : 'satellite') + '/' + zoomLevel + '-' + coord.x + '_' + coord.y + '.png';
 		},
 
 		normalizeCoordinates: function (coord, zoom) {
