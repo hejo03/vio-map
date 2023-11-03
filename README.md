@@ -12,4 +12,4 @@ Die .php Files sind Optional.
 ## License
 [WTFPL](LICENSE)
 ## Credits
-Source: https://github.com/gta5-map/gta5-map.github.io
+https://github.com/gta5-map/gta5-map.github.io
