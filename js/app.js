@@ -177,19 +177,19 @@ $(function () {
 			name: 'Gangs',
 			icon: 'General/house.png',
 			type: 'Fraktionen',
-			enabled: true,
+			enabled: false,
 		},
-		{
+		/*{
 			name: 'Squads',
 			icon: 'General/house.webp',
 			type: 'Fraktionen',
 			enabled: true,
-		},
+		},*/
 		{
 			name: 'Police',
 			icon: 'General/sfactions.png',
 			type: 'Fraktionen',
-			enabled: true,
+			enabled: false,
 		},
 		{
 			name: 'WT Spots',
@@ -220,6 +220,12 @@ $(function () {
 			icon: 'General/cars.png',
 			type: 'Farm',
 			enabled: false,
+		},
+		{
+			name: 'Händler',
+			icon: 'General/cars.png',
+			type: 'Unternehmen',
+			enabled: true,
 		},
 	]));
 

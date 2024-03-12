@@ -111,7 +111,7 @@ header a.active {
 	display: block;
 	margin-top: 30px;
 	padding: 0 10px;
-	overflow: hidden;
+	overflow: hidden !important;
 }
 
 #tour-nav h3 {
@@ -130,7 +130,7 @@ header a.active {
 	z-index: 2;
 	margin: 42px 0 0 7px;
 	padding-bottom: 5px;
-	overflow: scroll;
+	overflow: auto;
 	max-height: 702px;
 }
 

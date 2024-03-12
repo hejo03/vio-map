@@ -72,6 +72,7 @@
 									<option>A. Helikopter</option>
 									<option>Gang Dealer</option>
 									<option>Händler</option>
+									<option>Unternehmens Händler</option>
 									>
 								</select>
 							</div>
@@ -102,7 +103,7 @@
 						<h1 class="modal-title fs-5" id="exampleModalLabel">Info</h1>
 						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
-					<div class="modal-body">Gangs: 1-50<br />Police: 51-60<br>DT:61-65<br />Squads:100-200<br />A. Heli 200-250<br>WT 300-350<br>Gang Dealer 251-299</div>
+					<div class="modal-body">Gangs: 1-50<br />Police: 51-60<br>DT:61-65<br />Squads:100-200<br />A. Heli 200-250<br>WT 300-350<br>Gang Dealer 251-299<br>Unternehmenshändler 400-449</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 						<button type="button" class="btn btn-primary">Save changes</button>
@@ -149,8 +150,9 @@
 														<option <?php if ($key['type'] == 'WT Spots') echo 'selected'; ?>>WT Spots</option>
 														<option <?php if ($key['type'] == 'DT Abgaben') echo 'selected;' ?>>DT Abgaben</option>
 														<option <?php if ($key['type'] == 'A. Helikopter') echo 'selected'; ?>>A. Helikopter</option>
-														<option <?php if ($key['type'] == 'Gang Dealer') echo 'selected'; ?>>Gang Dealer</option> >
-														<option <?php if ($key['type'] == 'Händler') echo 'selected'; ?>>Händler</option> >
+														<option <?php if ($key['type'] == 'Gang Dealer') echo 'selected'; ?>>Gang Dealer</option> 
+														<option <?php if ($key['type'] == 'Händler') echo 'selected'; ?>>Händler</option>
+														<option <?php if ($key['type'] == 'Unternehmens Händler') echo 'selected'; ?>>Unternehmens Händler</option>
 													</select> </div>
 												<div class="mb-3"> <label for="id" class="form-label">Title</label> <input type="text" class="form-control" id="id" name="title" value="<?php echo $key['title']; ?>" placeholder="" required /> </div>
 												<div class="mb-3"> <label for="id" class="form-label">Notes:</label> <input type="tex" class="form-control" id="id" name="notes" value="<?php echo $key['notes']; ?>" placeholder="Farbe: .." /> </div>
