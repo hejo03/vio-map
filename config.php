@@ -5,7 +5,6 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Config</title>
-	<script src="https://kit.fontawesome.com/90370776df.js" crossorigin="anonymous"></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
 
 	<script src="js/libs/jquery-min.js"></script>
@@ -46,7 +45,7 @@
 		<br />
 
 		<h1 class="text-center">Markers</h1>
-		<a class="btn btn-outline-info m-1" data-bs-toggle="modal" data-bs-target="#add"><i class="fa fa-plus"></i></a>
+		<a class="btn btn-outline-info m-1" data-bs-toggle="modal" data-bs-target="#add">+</a>
 		<!-- Modal -->
 		<div class="modal fade" id="add" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
@@ -72,7 +71,6 @@
 									<option>A. Helikopter</option>
 									<option>Gang Dealer</option>
 									<option>Händler</option>
-									<option>Unternehmens Händler</option>
 									>
 								</select>
 							</div>
@@ -94,7 +92,7 @@
 				</div>
 			</div>
 		</div>
-		<a class="btn btn-outline-info m-1" data-bs-toggle="modal" data-bs-target="#info"><i class="fa fa-question"></i></a>
+		<a class="btn btn-outline-info m-1" data-bs-toggle="modal" data-bs-target="#info">?</a>
 		<!-- Modal -->
 		<div class="modal fade" id="info" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
@@ -133,7 +131,7 @@
 						<td><?php echo $key['title']; ?></td>
 						<td><?php echo $key['notes']; ?></td>
 						<td><?php echo $key['lat']; ?> | lng: <?php echo $key['lng']; ?></td>
-						<td> <a class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#edit<?php echo $key['id']; ?>"><i class="fa fa-edit"></i></a>
+						<td> <a class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#edit<?php echo $key['id']; ?>">E</a>
 							<div class="modal fade" id="edit<?php echo $key['id']; ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 								<div class="modal-dialog">
 									<div class="modal-content">
@@ -152,7 +150,7 @@
 														<option <?php if ($key['type'] == 'A. Helikopter') echo 'selected'; ?>>A. Helikopter</option>
 														<option <?php if ($key['type'] == 'Gang Dealer') echo 'selected'; ?>>Gang Dealer</option> 
 														<option <?php if ($key['type'] == 'Händler') echo 'selected'; ?>>Händler</option>
-														<option <?php if ($key['type'] == 'Unternehmens Händler') echo 'selected'; ?>>Unternehmens Händler</option>
+														<option <?php if ($key['type'] == 'Händler') echo 'selected'; ?>>Händler</option>
 													</select> </div>
 												<div class="mb-3"> <label for="id" class="form-label">Title</label> <input type="text" class="form-control" id="id" name="title" value="<?php echo $key['title']; ?>" placeholder="" required /> </div>
 												<div class="mb-3"> <label for="id" class="form-label">Notes:</label> <input type="tex" class="form-control" id="id" name="notes" value="<?php echo $key['notes']; ?>" placeholder="Farbe: .." /> </div>
@@ -161,7 +159,7 @@
 										</div>
 									</div>
 								</div>
-							</div> <a class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#delete<?php echo $key['id']; ?>"><i class="fa fa-times"></i></a> <!-- Modal -->
+							</div> <a class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#delete<?php echo $key['id']; ?>">x</a> <!-- Modal -->
 							<div class="modal fade" id="delete<?php echo $key['id']; ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 								<div class="modal-dialog">
 									<div class="modal-content">

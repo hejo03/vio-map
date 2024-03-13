@@ -227,7 +227,7 @@ $(function () {
     },
     {
       name: "Händler",
-      icon: "General/cars.png",
+      icon: "General/farm.webp",
       type: "Unternehmen",
       enabled: true,
     },
