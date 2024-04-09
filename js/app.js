@@ -174,24 +174,6 @@ $(function () {
 
 	var categories = (window.cats = new CategoriesCollection([
 		{
-			name: 'Gangs',
-			icon: 'General/house.png',
-			type: 'Fraktionen',
-			enabled: true,
-		},
-		{
-			name: 'Squads',
-			icon: 'General/house.webp',
-			type: 'Fraktionen',
-			enabled: true,
-		},
-		{
-			name: 'Police',
-			icon: 'General/sfactions.png',
-			type: 'Fraktionen',
-			enabled: true,
-		},
-		{
 			name: 'WT Spots',
 			icon: 'General/Packet.webp',
 			type: 'Blips',
@@ -217,7 +199,7 @@ $(function () {
 		},
 		{
 			name: 'Händler',
-			icon: 'General/cars.png',
+			icon: 'General/farm.png',
 			type: 'Farm',
 			enabled: false,
 		},
