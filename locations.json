@@ -1,1 +1,548 @@
-[{"id":"1","type":"Gangs","title":"GANG_NAME","notes":"Farbe: ","lat":"71.1","lng":"-143.52","images":[{"id":"1","url":"https:\/\/i.imgur.com\/GhffSXK.jpg"}]},{"id":2,"type":"Gangs","title":"GANG_NAME","notes":"Farbe: ","lat":69.346,"lng":-139.664,"images":[{"id":"1","url":"https:\/\/i.imgur.com\/1saG3uw.jpg"}]},{"id":3,"type":"Gangs","title":"GANG_NAME","notes":"Farbe: ","lat":72.348,"lng":-139.362,"images":[{"id":"1","url":"https:\/\/i.imgur.com\/RwxOTTh.jpg"}]},{"id":"4","type":"Gangs","title":"KappaKartell","notes":"Farbe: Rot","lat":"75.565","lng":"-142.904","images":[{"id":"1","url":"https:\/\/i.imgur.com\/TYiCDXA.jpg"}]},{"id":5,"type":"Gangs","title":"GANG_NAME","notes":"Farbe: ","lat":75.867,"lng":-116.925,"images":[{"id":"1","url":"https:\/\/i.imgur.com\/Mjn7Do7.jpg"}]},{"id":"6","type":"Gangs","title":"Burger Shot","notes":"Farbe: Blau","lat":"75.976","lng":"-109.666","images":[{"id":"1","url":"https:\/\/i.imgur.com\/22yFsjC.jpg"}]},{"id":7,"type":"Gangs","title":"GANG_NAME","notes":"Farbe: ","lat":77.432,"lng":-116.181,"images":[{"id":"1","url":"https:\/\/i.imgur.com\/NiwlS4s.jpg"}]},{"id":8,"type":"Gangs","title":"GANG_NAME","notes":"Farbe: ","lat":81.466,"lng":-92.482,"images":[{"id":"1","url":"https:\/\/i.imgur.com\/lS8bkx7.jpg"}]},{"id":9,"type":"Gangs","title":"GANG_NAME","notes":"Farbe: ","lat":82.073,"lng":-102.954,"images":[{"id":"1","url":"https:\/\/i.imgur.com\/0fpUWQg.jpg"}]},{"id":10,"type":"Gangs","title":"GANG_NAME","notes":"Farbe: ","lat":72.348,"lng":-139.362,"images":[{"id":"1","url":"https:\/\/i.imgur.com\/iup58uO.jpg"}]},{"id":11,"type":"Gangs","title":"Kegelclub","notes":"Farbe: Wei\u00df","lat":73.201,"lng":-111.063,"images":[{"id":"1","url":"https:\/\/i.imgur.com\/WBgwe9x.jpg"}]},{"id":12,"type":"Gangs","title":"GANG_NAME","notes":"Farbe: ","lat":69.247,"lng":-115.132,"images":[{"id":"1","url":"https:\/\/i.imgur.com\/QsaRzFk.jpg"}]},{"id":13,"type":"Gangs","title":"GANG_NAME","notes":"Farbe: ","lat":63.886,"lng":-126.782,"images":[{"id":"1","url":"https:\/\/i.imgur.com\/RIJ7JjA.jpg"}]},{"id":14,"type":"Gangs","title":"Sinaloa Kartell","notes":"Farbe: Schwarz","lat":70.083,"lng":-139.584,"images":[{"id":"1","url":"https:\/\/i.imgur.com\/D7C8pok.png"}]},{"id":50,"type":"Police","title":"Los Santos Police Department","notes":"","lat":69.185,"lng":-130.026},{"id":51,"type":"Police","title":"Los Santos County Sheriff's Department","notes":"","lat":82.596,"lng":-128.862},{"id":201,"type":"A. Helikopter","title":"(1) Banham-Canyon","notes":"","lat":72.868,"lng":-151.198},{"id":202,"type":"A. Helikopter","title":"(2) Lago-Zancodu","notes":"","lat":76.92,"lng":-148.155},{"id":203,"type":"A. Helikopter","title":"(3) Mount-Josiah","notes":"","lat":78.459,"lng":-128.152},{"id":204,"type":"A. Helikopter","title":"(4) Raton-Canyon","notes":"","lat":80.016,"lng":-129.767},{"id":205,"type":"A. Helikopter","title":"(5) Pazific-Ocean","notes":"","lat":80.958,"lng":-143.669},{"id":206,"type":"A. Helikopter","title":"(6) Mount-Chiliad","notes":"","lat":81.241,"lng":-124.094},{"id":207,"type":"A. Helikopter","title":"(7) Mount-Chiliad","notes":"","lat":82.623,"lng":-121.36},{"id":208,"type":"A. Helikopter","title":"(8) Mount-Chiliad","notes":"","lat":81.967,"lng":-108.584},{"id":209,"type":"A. Helikopter","title":"(9) Mount Gordo (Oben)","notes":"","lat":82.869,"lng":-99.339},{"id":210,"type":"A. Helikopter","title":"(10) Mount Gordo (Unten)","notes":"","lat":82.034,"lng":-95.363},{"id":211,"type":"A. Helikopter","title":"(11) Pacific Ocean","notes":"","lat":81.215,"lng":-89.358},{"id":212,"type":"A. Helikopter","title":"(12) San-Chianski-Bergkette (Oben)","notes":"","lat":80.422,"lng":-92.702},{"id":213,"type":"A. Helikopter","title":"(13) San-Chianski-Bergkette (Unten)","notes":"","lat":78.938,"lng":-87.157},{"id":214,"type":"A. Helikopter","title":"(14) Davis-Quartz","notes":"","lat":76.671,"lng":-96.208},{"id":215,"type":"A. Helikopter","title":"(15) Pazific-Ocean","notes":"","lat":70.26,"lng":-93.232},{"id":216,"type":"A. Helikopter","title":"(16) Palomino-Hochland (oben)","notes":"","lat":65.732,"lng":-102.228},{"id":217,"type":"A. Helikopter","title":"(17) Palomino-Hochland (mitte)","notes":"","lat":63.221,"lng":-101.786},{"id":218,"type":"A. Helikopter","title":"(18) Palomino-Hochland (unten)","notes":"","lat":61.422,"lng":-104.555},{"id":61,"type":"DT Abgaben","title":"Erster Abgabepunkt","notes":"","lat":75.037,"lng":-115.966},{"id":"62","type":"DT Abgaben","title":"Zweiter Abgabepunkt","notes":"","lat":"76.151","lng":"-123.691"},{"id":300,"type":"WT Spots","title":"\u00d6l Felder","notes":"","lat":64.062,"lng":-107.646},{"id":301,"type":"WT Spots","title":"Saru\/L.S.S.D.","notes":"","lat":65.041,"lng":-112.974},{"id":"302","type":"WT Spots","title":"Vespucci","notes":"","lat":"63.691","lng":"-135.960"},{"id":303,"type":"WT Spots","title":"Film Studio","notes":"","lat":67.883,"lng":-136.168},{"id":304,"type":"WT Spots","title":"Pacific Bluffs","notes":"","lat":68.501,"lng":-142.954},{"id":"305","type":"WT Spots","title":"Vinewood","notes":"","lat":"69.441","lng":"-125.009"},{"id":306,"type":"WT Spots","title":"Observatorium","notes":"","lat":73.155,"lng":-129.213},{"id":307,"type":"WT Spots","title":"Unter Milit\u00e4rbase","notes":"","lat":76.86,"lng":-144.792},{"id":308,"type":"WT Spots","title":"Milit\u00e4rbase","notes":"","lat":77.841,"lng":-140.123},{"id":309,"type":"WT Spots","title":"Mount Chiliad (Lenny)","notes":"","lat":80.321,"lng":-121.083},{"id":310,"type":"WT Spots","title":"Grapeseed (Scheune)","notes":"","lat":80.652,"lng":-105.525},{"id":"311","type":"WT Spots","title":"Grapeseed","notes":"","lat":"80.7","lng":"-99.452"},{"id":312,"type":"WT Spots","title":"Grapeseed (Alte Tankstelle)","notes":"","lat":79.942,"lng":-100.066},{"id":"313","type":"WT Spots","title":"Alien","notes":"","lat":"79.155","lng":"-100.825"},{"id":314,"type":"WT Spots","title":"Grand Senora Desert","notes":"","lat":78.826,"lng":-114.9},{"id":315,"type":"WT Spots","title":"Dino","notes":"","lat":76.811,"lng":-99.658},{"id":251,"type":"Gang Dealer","title":"Kortz Center","notes":"","lat":70.484,"lng":-146.231},{"id":252,"type":"Gang Dealer","title":"Drug Kitchen","notes":"","images":[{"id":"1","url":"https:\/\/i.imgur.com\/gjo239U.png"}],"lat":"61.639","lng":"-122.473"},{"id":253,"type":"Gang Dealer","title":"Factory","notes":"","lat":"60.125","lng":"-116.283"},{"id":254,"type":"Gang Dealer","title":"Drug Storage","notes":"","lat":"80.730","lng":"-108.227"},{"id":255,"type":"Gang Dealer","title":"Redneck Village","notes":"","lat":"81.079","lng":"-135.752"},{"id":400,"type":"H\u00e4ndler","title":"Quest H\u00e4ndler 1","notes":"","lat":81.006,"lng":-108.471},{"id":401,"type":"H\u00e4ndler","title":"Tandh\u00e4ndlerin Tatiana","notes":"","lat":65.797,"lng":-132.258},{"id":402,"type":"H\u00e4ndler","title":"Marktmeisterin Magdalena","notes":"","lat":82.647,"lng":-128.358}]
+[
+    {
+        "id": "1",
+        "type": "Gangs",
+        "title": "GANG_NAME",
+        "notes": "Farbe: ",
+        "lat": "71.1",
+        "lng": "-143.52",
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/GhffSXK.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "type": "Gangs",
+        "title": "GANG_NAME",
+        "notes": "Farbe: ",
+        "lat": 69.346,
+        "lng": -139.664,
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/1saG3uw.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "type": "Gangs",
+        "title": "GANG_NAME",
+        "notes": "Farbe: ",
+        "lat": 72.348,
+        "lng": -139.362,
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/RwxOTTh.jpg"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "type": "Gangs",
+        "title": "KappaKartell",
+        "notes": "Farbe: Rot",
+        "lat": "75.565",
+        "lng": "-142.904",
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/TYiCDXA.jpg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "Gangs",
+        "title": "GANG_NAME",
+        "notes": "Farbe: ",
+        "lat": 75.867,
+        "lng": -116.925,
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/Mjn7Do7.jpg"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "type": "Gangs",
+        "title": "Burger Shot",
+        "notes": "Farbe: Blau",
+        "lat": "75.976",
+        "lng": "-109.666",
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/22yFsjC.jpg"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "type": "Gangs",
+        "title": "GANG_NAME",
+        "notes": "Farbe: ",
+        "lat": 77.432,
+        "lng": -116.181,
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/NiwlS4s.jpg"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "type": "Gangs",
+        "title": "GANG_NAME",
+        "notes": "Farbe: ",
+        "lat": 81.466,
+        "lng": -92.482,
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/lS8bkx7.jpg"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "type": "Gangs",
+        "title": "GANG_NAME",
+        "notes": "Farbe: ",
+        "lat": 82.073,
+        "lng": -102.954,
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/0fpUWQg.jpg"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "type": "Gangs",
+        "title": "GANG_NAME",
+        "notes": "Farbe: ",
+        "lat": 72.348,
+        "lng": -139.362,
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/iup58uO.jpg"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "type": "Gangs",
+        "title": "Kegelclub",
+        "notes": "Farbe: Wei\u00df",
+        "lat": 73.201,
+        "lng": -111.063,
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/WBgwe9x.jpg"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "type": "Gangs",
+        "title": "GANG_NAME",
+        "notes": "Farbe: ",
+        "lat": 69.247,
+        "lng": -115.132,
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/QsaRzFk.jpg"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "type": "Gangs",
+        "title": "GANG_NAME",
+        "notes": "Farbe: ",
+        "lat": 63.886,
+        "lng": -126.782,
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/RIJ7JjA.jpg"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "type": "Gangs",
+        "title": "Sinaloa Kartell",
+        "notes": "Farbe: Schwarz",
+        "lat": 70.083,
+        "lng": -139.584,
+        "images": [
+            {
+                "id": "1",
+                "url": "https:\/\/i.imgur.com\/D7C8pok.png"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "type": "Police",
+        "title": "Los Santos Police Department",
+        "notes": "",
+        "lat": 69.185,
+        "lng": -130.026
+    },
+    {
+        "id": 51,
+        "type": "Police",
+        "title": "Los Santos County Sheriff's Department",
+        "notes": "",
+        "lat": 82.596,
+        "lng": -128.862
+    },
+    {
+        "id": 201,
+        "type": "A. Helikopter",
+        "title": "(1) Banham-Canyon",
+        "notes": "",
+        "lat": 72.868,
+        "lng": -151.198
+    },
+    {
+        "id": 202,
+        "type": "A. Helikopter",
+        "title": "(2) Lago-Zancodu",
+        "notes": "",
+        "lat": 76.92,
+        "lng": -148.155
+    },
+    {
+        "id": 203,
+        "type": "A. Helikopter",
+        "title": "(3) Mount-Josiah",
+        "notes": "",
+        "lat": 78.459,
+        "lng": -128.152
+    },
+    {
+        "id": 204,
+        "type": "A. Helikopter",
+        "title": "(4) Raton-Canyon",
+        "notes": "",
+        "lat": 80.016,
+        "lng": -129.767
+    },
+    {
+        "id": 205,
+        "type": "A. Helikopter",
+        "title": "(5) Pazific-Ocean",
+        "notes": "",
+        "lat": 80.958,
+        "lng": -143.669
+    },
+    {
+        "id": 206,
+        "type": "A. Helikopter",
+        "title": "(6) Mount-Chiliad",
+        "notes": "",
+        "lat": 81.241,
+        "lng": -124.094
+    },
+    {
+        "id": 207,
+        "type": "A. Helikopter",
+        "title": "(7) Mount-Chiliad",
+        "notes": "",
+        "lat": 82.623,
+        "lng": -121.36
+    },
+    {
+        "id": 208,
+        "type": "A. Helikopter",
+        "title": "(8) Mount-Chiliad",
+        "notes": "",
+        "lat": 81.967,
+        "lng": -108.584
+    },
+    {
+        "id": 209,
+        "type": "A. Helikopter",
+        "title": "(9) Mount Gordo (Oben)",
+        "notes": "",
+        "lat": 82.869,
+        "lng": -99.339
+    },
+    {
+        "id": 210,
+        "type": "A. Helikopter",
+        "title": "(10) Mount Gordo (Unten)",
+        "notes": "",
+        "lat": 82.034,
+        "lng": -95.363
+    },
+    {
+        "id": 211,
+        "type": "A. Helikopter",
+        "title": "(11) Pacific Ocean",
+        "notes": "",
+        "lat": 81.215,
+        "lng": -89.358
+    },
+    {
+        "id": 212,
+        "type": "A. Helikopter",
+        "title": "(12) San-Chianski-Bergkette (Oben)",
+        "notes": "",
+        "lat": 80.422,
+        "lng": -92.702
+    },
+    {
+        "id": 213,
+        "type": "A. Helikopter",
+        "title": "(13) San-Chianski-Bergkette (Unten)",
+        "notes": "",
+        "lat": 78.938,
+        "lng": -87.157
+    },
+    {
+        "id": 214,
+        "type": "A. Helikopter",
+        "title": "(14) Davis-Quartz",
+        "notes": "",
+        "lat": 76.671,
+        "lng": -96.208
+    },
+    {
+        "id": 215,
+        "type": "A. Helikopter",
+        "title": "(15) Pazific-Ocean",
+        "notes": "",
+        "lat": 70.26,
+        "lng": -93.232
+    },
+    {
+        "id": 216,
+        "type": "A. Helikopter",
+        "title": "(16) Palomino-Hochland (oben)",
+        "notes": "",
+        "lat": 65.732,
+        "lng": -102.228
+    },
+    {
+        "id": 217,
+        "type": "A. Helikopter",
+        "title": "(17) Palomino-Hochland (mitte)",
+        "notes": "",
+        "lat": 63.221,
+        "lng": -101.786
+    },
+    {
+        "id": 218,
+        "type": "A. Helikopter",
+        "title": "(18) Palomino-Hochland (unten)",
+        "notes": "",
+        "lat": 61.422,
+        "lng": -104.555
+    },
+    {
+        "id": 61,
+        "type": "DT Abgaben",
+        "title": "Erster Abgabepunkt",
+        "notes": "",
+        "lat": 75.037,
+        "lng": -115.966
+    },
+    {
+        "id": "62",
+        "type": "DT Abgaben",
+        "title": "Zweiter Abgabepunkt",
+        "notes": "",
+        "lat": "76.151",
+        "lng": "-123.691"
+    },
+    {
+        "id": 300,
+        "type": "WT Spots",
+        "title": "\u00d6l Felder",
+        "notes": "",
+        "lat": 64.062,
+        "lng": -107.646
+    },
+    {
+        "id": 301,
+        "type": "WT Spots",
+        "title": "Saru\/L.S.S.D.",
+        "notes": "",
+        "lat": 65.041,
+        "lng": -112.974
+    },
+    {
+        "id": "302",
+        "type": "WT Spots",
+        "title": "Vespucci",
+        "notes": "",
+        "lat": "63.691",
+        "lng": "-135.960"
+    },
+    {
+        "id": 303,
+        "type": "WT Spots",
+        "title": "Film Studio",
+        "notes": "",
+        "lat": 67.883,
+        "lng": -136.168
+    },
+    {
+        "id": 304,
+        "type": "WT Spots",
+        "title": "Pacific Bluffs",
+        "notes": "",
+        "lat": 68.501,
+        "lng": -142.954
+    },
+    {
+        "id": "305",
+        "type": "WT Spots",
+        "title": "Vinewood",
+        "notes": "",
+        "lat": "69.441",
+        "lng": "-125.009"
+    },
+    {
+        "id": 306,
+        "type": "WT Spots",
+        "title": "Observatorium",
+        "notes": "",
+        "lat": 73.155,
+        "lng": -129.213
+    },
+    {
+        "id": 307,
+        "type": "WT Spots",
+        "title": "Unter Milit\u00e4rbase",
+        "notes": "",
+        "lat": 76.86,
+        "lng": -144.792
+    },
+    {
+        "id": 308,
+        "type": "WT Spots",
+        "title": "Milit\u00e4rbase",
+        "notes": "",
+        "lat": 77.841,
+        "lng": -140.123
+    },
+    {
+        "id": 309,
+        "type": "WT Spots",
+        "title": "Mount Chiliad (Lenny)",
+        "notes": "",
+        "lat": 80.321,
+        "lng": -121.083
+    },
+    {
+        "id": 310,
+        "type": "WT Spots",
+        "title": "Grapeseed (Scheune)",
+        "notes": "",
+        "lat": 80.652,
+        "lng": -105.525
+    },
+    {
+        "id": "311",
+        "type": "WT Spots",
+        "title": "Grapeseed",
+        "notes": "",
+        "lat": "80.7",
+        "lng": "-99.452"
+    },
+    {
+        "id": 312,
+        "type": "WT Spots",
+        "title": "Grapeseed (Alte Tankstelle)",
+        "notes": "",
+        "lat": 79.942,
+        "lng": -100.066
+    },
+    {
+        "id": "313",
+        "type": "WT Spots",
+        "title": "Alien",
+        "notes": "",
+        "lat": "79.155",
+        "lng": "-100.825"
+    },
+    {
+        "id": 314,
+        "type": "WT Spots",
+        "title": "Grand Senora Desert",
+        "notes": "",
+        "lat": 78.826,
+        "lng": -114.9
+    },
+    {
+        "id": 315,
+        "type": "WT Spots",
+        "title": "Dino",
+        "notes": "",
+        "lat": 76.811,
+        "lng": -99.658
+    },
+    {
+        "id": 251,
+        "type": "Gang Dealer",
+        "title": "Kortz Center",
+        "notes": "",
+        "lat": 70.484,
+        "lng": -146.231
+    },
+    {
+        "id": 252,
+        "type": "Gang Dealer",
+        "title": "Drug Kitchen",
+        "notes": "",
+        "images": [
+            {
+                "id": "1",
+                "url": "https://i.imgur.com/gjo239U.png"
+            }
+        ],
+        "lat": "61.639",
+        "lng": "-122.473"
+    },
+    {
+        "id": 253,
+        "type": "Gang Dealer",
+        "title": "Factory",
+        "notes": "",
+        "lat": "60.125",
+        "lng": "-116.283"
+    },
+    {
+        "id": 254,
+        "type": "Gang Dealer",
+        "title": "Drug Storage",
+        "notes": "",
+        "lat": "80.730",
+        "lng": "-108.227"
+    },
+    {
+        "id": 255,
+        "type": "Gang Dealer",
+        "title": "Redneck Village",
+        "notes": "",
+        "lat": "81.079",
+        "lng": "-135.752"
+    }
+]
