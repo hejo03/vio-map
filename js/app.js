@@ -200,8 +200,8 @@ $(function () {
 		{
 			name: 'Händler',
 			icon: 'General/farm.webp',
-			type: 'Farm',
-			enabled: false,
+			type: 'Unternehmen',
+			enabled: true,
 		},
 	]));
 
