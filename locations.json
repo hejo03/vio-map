@@ -544,5 +544,69 @@
         "notes": "",
         "lat": "81.079",
         "lng": "-135.752"
+    },
+    {
+        "id": 400,
+        "type": "Händler",
+        "title": "Handelsherr Heinrich",
+        "notes": "",
+        "lat": "81.006",
+        "lng": "-108.471"
+    },
+    {
+        "id": 401,
+        "type": "Händler",
+        "title": "Tandhändlerin Tatiana",
+        "notes": "",
+        "lat": "65.797",
+        "lng": "-132.258"
+    },
+    {
+        "id": 402,
+        "type": "Händler",
+        "title": "Marktmeisterin Magdalena",
+        "notes": "",
+        "lat": "82.647",
+        "lng": "-128.358"
+    },
+    {
+        "id": 403,
+        "type": "Händler",
+        "title": "Tauschmogul Torsten",
+        "notes": "",
+        "lat": "69.396",
+        "lng": "-120.859"
+    },
+    {
+        "id": 404,
+        "type": "Händler",
+        "title": "Händler Harald",
+        "notes": "",
+        "lat": "68.131",
+        "lng": "-134.381"
+    },
+    {
+        "id": 405,
+        "type": "Händler",
+        "title": "Wirtschafter Wilhelm",
+        "notes": "",
+        "lat": "61.239",
+        "lng": "-114.468"
+    },
+    {
+        "id": 406,
+        "type": "Händler",
+        "title": "Tauschmeisterin Theresa",
+        "notes": "",
+        "lat": "78.941",
+        "lng": "-115.67"
+    },
+    {
+        "id": 407,
+        "type": "Händler",
+        "title": "Warenvorsteher Willie",
+        "notes": "",
+        "lat": "83.178",
+        "lng": "-125.375"
     }
 ]
