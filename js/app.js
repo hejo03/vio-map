@@ -199,7 +199,7 @@ $(function () {
 		},
 		{
 			name: 'Händler',
-			icon: 'General/farm.png',
+			icon: 'General/farm.webp',
 			type: 'Farm',
 			enabled: false,
 		},
