@@ -608,5 +608,37 @@
         "notes": "",
         "lat": "83.178",
         "lng": "-125.375"
+    },
+    {
+        "id": 408,
+        "type": "Händler",
+        "title": "Tobias",
+        "notes": "",
+        "lat": "83.113",
+        "lng": "-124.523"
+    },
+    {
+        "id": 409,
+        "type": "Händler",
+        "title": "Warenwächter Waldemar",
+        "notes": "",
+        "lat": "78.079",
+        "lng": "-104.866"
+    },
+    {
+        "id": 410,
+        "type": "Händler",
+        "title": "Handelszauberer Hartmut",
+        "notes": "",
+        "lat": "61.332",
+        "lng": "-134.811"
+    },
+    {
+        "id": 411,
+        "type": "Händler",
+        "title": "Marktzauberin Marianne",
+        "notes": "",
+        "lat": "73.100",
+        "lng": "-155.179"
     }
 ]

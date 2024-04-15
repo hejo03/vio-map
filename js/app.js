@@ -1,6 +1,6 @@
 /*
 http://localhost:5500/?dev=true
-
+TEST
 */
 var ignoredTitles = ['GANG_NAME', 'SQUAD_NAME'];
 function search(text) {
