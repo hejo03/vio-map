@@ -619,7 +619,8 @@ $(function () {
       .value();
 
     if (markerRef) {
-      var location = locations.get(Number(markerRef));
+      const id = locations.models.find((f) => f.attributes.title == markerRef);
+      var location = locations.get(Number(id.id));
       if (!location) return;
       location.highlightMarker();
       map.panTo(location.get("marker").getPosition());
