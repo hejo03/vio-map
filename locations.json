@@ -640,5 +640,13 @@
     "notes": "",
     "lat": "73.100",
     "lng": "-155.179"
+  },
+  {
+    "id": 412,
+    "type": "Händler",
+    "title": "Händlerin Helene",
+    "notes": "",
+    "lat": "77.210",
+    "lng": "-118.392"
   }
 ]
