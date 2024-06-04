@@ -648,5 +648,21 @@
     "notes": "",
     "lat": "77.210",
     "lng": "-118.392"
+  },
+  {
+    "id": 413,
+    "type": "Händler",
+    "title": "Warenwirt Wolfgang",
+    "notes": "",
+    "lat": "55.186",
+    "lng": "-113.168"
+  },
+  {
+    "id": 414,
+    "type": "Händler",
+    "title": "Marktzauberer Magnus",
+    "notes": "",
+    "lat": "62.980",
+    "lng": "-123.757"
   }
 ]
