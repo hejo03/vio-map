@@ -483,7 +483,7 @@ $(function () {
         coord.x +
         "_" +
         coord.y +
-        ".webp"
+        ".png.webp"
       );
     },
 
