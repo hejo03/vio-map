@@ -1,0 +1,6 @@
+*.php
+*.sh
+*.yml
+*.md
+.git
+Dockerfile

@@ -1,0 +1,22 @@
+networks:
+   web:
+      external: true
+
+services:
+   viomap:
+      build:
+         context: .
+         dockerfile: Dockerfile
+      container_name: viomap
+      restart: unless-stopped
+
+      labels:
+         - "traefik.enable=true"
+         - "traefik.http.routers.viomap.rule=Host(`map.hejo03.de`)"
+         - "traefik.http.routers.viomap.entrypoints=websecure"
+         - "traefik.http.routers.viomap.tls=true"
+      networks:
+         - web
+      volumes:
+         - '/etc/localtime:/etc/localtime:ro'
+         - '/etc/timezone:/etc/timezone:ro'
